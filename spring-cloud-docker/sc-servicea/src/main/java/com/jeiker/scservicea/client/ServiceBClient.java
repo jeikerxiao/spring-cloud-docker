@@ -20,7 +20,7 @@ public interface ServiceBClient {
     @Component
     class ServiceBClientFallback implements ServiceBClient {
 
-        private static final Logger logger = LoggerFactory.getLogger(com.jeiker.scservicea.controller.ServiceAController.ServiceBClientFallback.class);
+        private static final Logger logger = LoggerFactory.getLogger(ServiceBClientFallback.class);
 
         @Override
         public String printServiceB() {
