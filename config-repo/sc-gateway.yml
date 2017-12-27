@@ -30,3 +30,4 @@ zuul:
     sc-serviceb:
       path: /svcb/**
       sensitiveHeaders:
+        

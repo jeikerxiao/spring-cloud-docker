@@ -1,7 +1,7 @@
 server:
-  port: 8070
-  
-msg: Hello
+  port: 8080
+
+name: jeiker
 
 eureka:
   instance:
@@ -15,7 +15,7 @@ security:
     password: password
   oauth2:
     client:
-      clientId: svcb-service
+      clientId: sc-servicea
       clientSecret: ${security.user.password}
       accessTokenUri: http://${authserver.hostname}:${authserver.port}${authserver.contextPath}/oauth/token
       grant-type: client_credentials

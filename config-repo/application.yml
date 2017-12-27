@@ -33,7 +33,7 @@ spring:
       skip-pattern: "^org.*HystrixStreamTask$"
 
 authserver:
-    hostname: auth-service
+    hostname: sc-auth
     port: 5000
     contextPath: /uaa
 
