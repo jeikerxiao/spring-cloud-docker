@@ -3,7 +3,7 @@ spring:
     name: sc-servicea
   cloud:
     config:
-      uri: http://127.0.0.1:8888
+      uri: http://127.0.0.1:8882
       fail-fast: true
       username: user
       password: ${CONFIG_SERVER_PASSWORD:password}

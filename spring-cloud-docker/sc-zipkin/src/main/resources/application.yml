@@ -1,3 +1,6 @@
+server:
+  port: 8884
+
 spring:
   application:
     name: sc-zipkin
@@ -6,9 +9,6 @@ spring:
     username: admin
     password: 123456
     port: 5672
-
-server:
-  port: 9411
 
 security:
   user:

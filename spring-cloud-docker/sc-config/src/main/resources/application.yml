@@ -1,5 +1,5 @@
 server:
-  port: 8888
+  port: 8882
 
 eureka:
   instance:
@@ -10,7 +10,7 @@ eureka:
       user.password: ${security.user.password}
   client:
     service-url:
-      defaultZone: http://user:${REGISTRY_SERVER_PASSWORD:password}@127.0.0.1:8761/eureka/
+      defaultZone: http://user:${REGISTRY_SERVER_PASSWORD:password}@127.0.0.1:8881/eureka/
 
 spring:
   cloud:

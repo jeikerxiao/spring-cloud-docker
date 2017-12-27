@@ -3,7 +3,7 @@ logging:
     org.springframework.cloud.netflix.zuul.filters.post.SendErrorFilter: error
 
 server:
-  port: 8040
+  port: 8883
 
 turbine:
   stream:
@@ -18,7 +18,7 @@ eureka:
       user.password: ${security.user.password}
   client:
     service-url:
-      defaultZone: http://user:${REGISTRY_SERVER_PASSWORD:password}@127.0.0.1:8761/eureka/
+      defaultZone: http://user:${REGISTRY_SERVER_PASSWORD:password}@127.0.0.1:8881/eureka/
 
 spring:
   rabbitmq:
