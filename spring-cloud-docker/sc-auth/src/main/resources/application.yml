@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: auth-service
+    name: sc-auth
   cloud:
     config:
       uri: http://127.0.0.1:8888

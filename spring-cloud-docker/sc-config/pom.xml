@@ -9,7 +9,6 @@
 		<version>0.0.1</version>
 	</parent>
 
-	<groupId>com.jeiker</groupId>
 	<artifactId>sc-config</artifactId>
 	<version>0.0.1</version>
 	<packaging>jar</packaging>
@@ -39,11 +38,6 @@
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
 	</dependencies>
 
 	<build>

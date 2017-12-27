@@ -14,7 +14,7 @@ eureka:
 
 spring:
   application:
-    name: config
+    name: sc-config
   cloud:
     config:
       server:

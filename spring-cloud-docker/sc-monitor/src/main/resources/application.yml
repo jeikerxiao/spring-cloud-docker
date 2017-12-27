@@ -22,7 +22,7 @@ eureka:
 
 spring:
   application:
-    name: monitor
+    name: sc-monitor
   rabbitmq:
     host: 192.168.235.32
     username: admin

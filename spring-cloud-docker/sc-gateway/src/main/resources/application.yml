@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: gateway
+    name: sc-gateway
   cloud:
     config:
       uri: http://127.0.0.1:8888
