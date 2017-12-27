@@ -1,6 +1,6 @@
 spring:
   application:
-    name: sc-gateway
+    name: sc-servicea
   cloud:
     config:
       uri: http://127.0.0.1:8888
