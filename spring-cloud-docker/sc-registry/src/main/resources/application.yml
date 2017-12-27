@@ -1,7 +1,3 @@
-spring:
-  application:
-    name: sc-registry
-
 server:
   port: 8761
 
