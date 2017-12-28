@@ -6,14 +6,16 @@
 
 该项目包含 8 个服务
 
-* sc-registry - 服务注册与发现
-* sc-config - 外部配置
-* sc-monitor - 监控
-* sc-zipkin - 分布式跟踪
-* sc-gateway - 代理所有微服务的接口网关
-* sc-auth - OAuth2 认证服务
-* sc-servicea - 业务服务A
-* sc-serviceb - 业务服务B
+|启动顺序|服务名|服务说明|服务端口
+|---|---|---|---
+|1| sc-registry | 服务注册与发现 | 8881
+|2| sc-config | 外部配置 | 8882
+|3| sc-monitor | 服务监控 | 8883
+|4| sc-zipkin | 分布式跟踪 | 8884
+|5| sc-gateway | 代理所有微服务的接口网关 | 8081 
+|6| sc-auth | OAuth2 认证服务 | 8082
+|7| sc-servicea | 业务服务A | 8083
+|8| sc-serviceb | 业务服务B | 8084
 
 
 # 启动项目
