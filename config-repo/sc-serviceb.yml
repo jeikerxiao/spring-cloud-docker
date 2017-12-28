@@ -11,8 +11,8 @@ eureka:
 
 security:
   user:
-    name: user
-    password: password
+    name: admin
+    password: admin
   oauth2:
     client:
       clientId: sc-serviceb
