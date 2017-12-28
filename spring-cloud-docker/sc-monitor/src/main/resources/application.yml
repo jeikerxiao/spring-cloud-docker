@@ -18,7 +18,7 @@ eureka:
       user.password: ${security.user.password}
   client:
     service-url:
-      defaultZone: http://user:${REGISTRY_SERVER_PASSWORD:password}@127.0.0.1:8881/eureka/
+      defaultZone: http://admin:${REGISTRY_SERVER_PASSWORD:admin}@127.0.0.1:8881/eureka/
 
 spring:
   rabbitmq:
