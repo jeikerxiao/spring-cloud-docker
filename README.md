@@ -33,28 +33,28 @@
 
 ## RabbitMQ 监控
 
-启动访问 http://localhost:15672/ 
+访问 http://localhost:15672/ 
 
-* 默认账号 guest
-* 密码 guest
+* 默认账号： guest
+* 密码： guest
 
 ## 服务注册中心
 
 访问 http://localhost:8881/ 
 
-* 默认账号 user
-* 密码 password
+* 默认账号： admin
+* 密码： admin
 
 ## 服务监控
 
 访问 http://localhost:8883/ 
 
-* 默认账号 admin
-* 密码 admin
+* 默认账号： admin
+* 密码： admin
 
 ## 服务链路跟踪
 
 访问 http://localhost:8884/ 
 
-* 默认账号 admin
-* 密码 admin
+* 默认账号： admin
+* 密码： admin

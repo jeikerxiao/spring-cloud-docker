@@ -13,5 +13,5 @@ eureka:
 
 security:
   user:
-    name: user
-    password: ${REGISTRY_SERVER_PASSWORD:password}
+    name: admin
+    password: ${REGISTRY_SERVER_PASSWORD:admin}
