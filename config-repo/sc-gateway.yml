@@ -30,7 +30,3 @@ zuul:
     sc-serviceb:
       path: /svcb/**
       sensitiveHeaders:
-
-logging:
-  level:
-    root: DEBUG        
