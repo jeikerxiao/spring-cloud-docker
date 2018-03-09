@@ -54,12 +54,12 @@ public class OAuthConfig extends AuthorizationServerConfigurerAdapter {
                 .accessTokenValiditySeconds(3600) // 1 hour
                 .refreshTokenValiditySeconds(2592000) // 30 days
                 .and()
-                .withClient("svca-service")
+                .withClient("sc-servicea")
                 .secret("password")
                 .authorizedGrantTypes("client_credentials", "refresh_token")
                 .scopes("server")
                 .and()
-                .withClient("svcb-service")
+                .withClient("sc-serviceb")
                 .secret("password")
                 .authorizedGrantTypes("client_credentials", "refresh_token")
                 .scopes("server");

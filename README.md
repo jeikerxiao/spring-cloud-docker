@@ -1,6 +1,11 @@
 # Spring Cloud Docker
 
+Spring Cloud 完整的架构项目。
 
+# 环境
+
+* Spring Boot 1.5.9.RELEASE
+* IntelliJ IDEA 2017.2
 
 # 应用架构
 
@@ -60,3 +65,4 @@
 
 * 默认账号： admin
 * 密码： admin
+
